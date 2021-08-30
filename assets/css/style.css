@@ -3,7 +3,16 @@ html {
 }
 
 body {
-    font-family: 'Zen Tokyo Zoo, cursive';
+    font-family: 'Zen Tokyo Zoo', serif;
     margin: 0;
     background: radial-gradient(#96595f, #e4d4d5);
+}
+
+.page-title {
+    color: #7c2f37;
+    font-family: 'Zen Tokyo Zoo', serif;
+    text-align: center;
+    font-size: 6em;
+    font-weight: normal;
+    
 }
