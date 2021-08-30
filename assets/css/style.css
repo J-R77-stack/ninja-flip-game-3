@@ -42,10 +42,8 @@ body {
     height: 200px;
     position: relative;
     margin: 2px;
-}
-
-.card:hover {
-    cursor: url("/assets/cursor/ninjastar.png"), auto;
+    transform-style: preserve-3d;
+    transition: transform 0.3s ease-out;
 }
 
 .card-front,.card-back {
@@ -53,4 +51,19 @@ body {
     width: 100%;
     object-fit: cover;
     position: absolute;
+    backface-visibility: hidden;
+}
+
+.card-front {
+    transform: rotateY(0.5 turn);
+}
+
+.card.change {
+    transform: rotateY(180deg) perspective(1000px);
+}
+
+/*custom cursor*/
+
+.card:hover {
+    cursor: url("/assets/cursor/ninjastar.png"), auto;
 }
