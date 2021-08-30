@@ -67,3 +67,19 @@ body {
 .card:hover {
     cursor: url("/assets/cursor/ninjastar.png"), auto;
 }
+
+/*Media Queries */
+
+@media (max-width:1130px) {
+    .game-area {
+        width: 70%;
+    }  
+}
+
+@media (max-width:930px) {
+    .game-area {
+        width: 80%;
+        margin-left: 100px;
+    }
+       
+}
