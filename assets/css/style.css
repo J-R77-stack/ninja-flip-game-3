@@ -30,7 +30,7 @@ body {
 /* game area*/
 
 .game-area {
-    width: 800px;
+    width: 850px;
     height: 600px;
     display: flex;
     flex-wrap: wrap;
@@ -41,6 +41,11 @@ body {
     width: 200px;
     height: 200px;
     position: relative;
+    margin: 2px;
+}
+
+.card:hover {
+    cursor: url("/assets/cursor/ninjastar.png"), auto;
 }
 
 .card-front,.card-back {
